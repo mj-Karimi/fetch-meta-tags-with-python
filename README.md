@@ -5,4 +5,4 @@
 <p>4- Choose meta tag or main tag such as <article> or <title></p>
 <p>5- Run the file.</p>
 <h3>Note:</h3> you can fetch div, span, p, li and ... tag with specific class with this code:
-<p> story = soup.find('div', {'class': 'story'}).text if soup.find('div', {'class': 'story'}) else 'N/A' </p>
+<code> story = soup.find('div', {'class': 'story'}).text if soup.find('div', {'class': 'story'}) else 'N/A' </code>

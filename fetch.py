@@ -22,5 +22,6 @@ with open('results.csv', 'w', encoding='utf-8') as file:
         # read <title> tag:
         title = soup.find('title').text if soup.find('title') else 'N/A'
         article = soup.find('article').text if soup.find('article') else 'N/A'
+        
         # save at file:
         file.write(f'"{img_content}","{title}","{article}"\n')

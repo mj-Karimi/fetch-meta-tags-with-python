@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-# read a list of website address:
+# read a list of website address + support Persian, Arabic and other utf8 languages:
 with open('input.txt', 'r', encoding='utf-8') as file:
     urls = file.readlines()
 
